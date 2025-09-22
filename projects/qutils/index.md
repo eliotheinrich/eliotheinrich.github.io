@@ -5,9 +5,8 @@ author_profile: true
 permalink: /projects/qutils/
 ---
 
-https://github.com/eliotheinrich/qutils
 
-`qutils` is, in essence, the corpus of code that I wrote and use for the simulations in my quantum research. As a result,
+[`qutils`](https://github.com/eliotheinrich/qutils) is, in essence, the corpus of code that I wrote and use for the simulations in my quantum research. As a result,
 many of the features are built around the specific needs of my research. Nonetheless, I think these tools may be useful for others,
 so I have done my best to keep the code organized, modular, and simple to use for non-programmers. `qutils` is natively written in C++,
 but the package provides robust python bindings which serve as the primary point of contact.

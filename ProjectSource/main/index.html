@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Monte Carlo Simulation</title>
+  <style>
+    body { margin: 0; background: #111; color: #eee; text-align: center; height: 500px; width: 500px; }
+    canvas { display: block; margin: auto; }
+    button { margin-top: 20px; padding: 10px 20px; font-size: 16px; }
+    #controls {
+      margin-top: 20px;
+    }
+    input[type=range] {
+      width: 300px;
+    }
+    label {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Monte Carlo Simulation</h1>
+  <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+  <br>
+  <button id="callBtn">Call C++ Callback</button>
+  <div id="controls">
+    <label for="slider">Parameter:</label>
+    <input type="range" id="slider" min="0" max="100" value="50">
+    <span id="sliderValue">50</span>
+  </div>
+
+  <script>
+    var Module = {
+      canvas: document.getElementById('canvas'),
+      onRuntimeInitialized: function () {
+        const slider = document.getElementById('slider');
+        const display = document.getElementById('sliderValue');
+
+        // Set up button click after runtime is ready
+        slider.addEventListener("click", function() {
+          const val = parseInt(slider.value);
+          display.textContent = val;
+
+          Module.ccall("slider_callback", null, ['number'], [val]);
+        });
+      }
+    };
+  </script>
+  <script src="xymodel.js"></script>
+</body>
+</html>
+

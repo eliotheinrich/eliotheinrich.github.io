@@ -11,6 +11,8 @@ substrate based on the local state of the substrate, either performing a 'raise'
 evaporation event, in which a nonlocal layer of substrate is removed. This model exhibits a self-organized critical phase, 
 i.e. a critical region which is an attractor for a dynamic system. 
 
+# Interactive Applet
+
 <div class="canvas-container">
   <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas>
 </div>
@@ -212,8 +214,6 @@ var Module = {
     // Initialize
     drawController();
 </script>
-
-# Interactive Applet
 
 In the quantum model, the entanglement serves as the substrate. At site $i$, the entanglement of the leftmost $i - 1$ qubits 
 serves as the height $h_i$ of the substrate. In this picture, a local unitary applied to $h_i$ may locally effect the substrate,

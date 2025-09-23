@@ -5,6 +5,7 @@ author_profile: true
 permalink: /publications/
 ---
 
+E. Heinrich, H. Liu, T. Zhou and X. Chen, *Critical slowing of participation and stabilizer entropy in non-unitary quantum circuit dynamics*, in preparation (2025).
 
 E. Heinrich and X. Chen, *Measurement induced phase transitions in quantum raise and peel models*, Physical Review B **110**, (2024).
 

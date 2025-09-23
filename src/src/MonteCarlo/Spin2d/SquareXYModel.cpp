@@ -246,7 +246,6 @@ void SquareXYModel::draw() const {
 }
 
 void SquareXYModel::key_callback(const std::string& key) {
-  std::cout << std::format("Registered keypress {}\n", key);
   if (key == "c") {
     cluster_update = !cluster_update;
   }

@@ -3,6 +3,7 @@ import http.server
 import socketserver
 import sys
 import os
+import socket
 
 if len(sys.argv) < 3:
     print("Usage: python serve_dir.py <port> <directory>")
@@ -25,7 +26,11 @@ class NoCacheHandler(http.server.SimpleHTTPRequestHandler):
         self.send_header("Expires", "0")
         super().end_headers()
 
-with socketserver.TCPServer(("", port), NoCacheHandler) as httpd:
+class ReusableTCPServer(socketserver.TCPServer):
+    allow_reuse_address = True
+    allow_reuse_port = hasattr(socket, "SO_REUSEPORT")
+
+with ReusableTCPServer(("", port), NoCacheHandler) as httpd:
     print(f"Serving '{directory}' at http://localhost:{port}")
     try:
         httpd.serve_forever()

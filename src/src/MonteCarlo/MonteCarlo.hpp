@@ -6,11 +6,7 @@
 
 #include "Random.hpp"
 #include "Simulator.hpp"
-
-static inline uint32_t mod(int a, int b) {
-  int c = a % b;
-  return (c < 0) ? c + b : c;
-}
+#include "Support.hpp"
 
 enum BoundaryCondition { Periodic, Open };
 

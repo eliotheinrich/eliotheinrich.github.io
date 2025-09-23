@@ -33,8 +33,14 @@
     var Module = {
       canvas: document.getElementById('canvas'),
       onRuntimeInitialized: function () {
+        const button = document.getElementById('callBtn');
+        button.addEventListener("click", function() {
+          Module.ccall("button_callback", "void");
+        });
+
         const slider = document.getElementById('slider');
         const display = document.getElementById('sliderValue');
+
 
         // Set up button click after runtime is ready
         slider.addEventListener("click", function() {
@@ -46,7 +52,7 @@
       }
     };
   </script>
-  <script src="xymodel.js"></script>
+  <script src="qrpm.js"></script>
 </body>
 </html>
 

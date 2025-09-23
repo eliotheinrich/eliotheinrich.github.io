@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js"
-  "/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.pdb"
+  "/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js"
+  "/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.pdb"
   "CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o"
   "CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o.d"
   "CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o"

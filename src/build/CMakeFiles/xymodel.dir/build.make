@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource
+CMAKE_SOURCE_DIR = /Users/eliotheinrich/Projects/eliotheinrich.github.io/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build
+CMAKE_BINARY_DIR = /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/xymodel.dir/depend.make
@@ -71,108 +71,108 @@ include CMakeFiles/xymodel.dir/flags.make
 
 CMakeFiles/xymodel.dir/src/xymodel.cpp.o: CMakeFiles/xymodel.dir/flags.make
 CMakeFiles/xymodel.dir/src/xymodel.cpp.o: CMakeFiles/xymodel.dir/includes_CXX.rsp
-CMakeFiles/xymodel.dir/src/xymodel.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/xymodel.cpp
+CMakeFiles/xymodel.dir/src/xymodel.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/xymodel.cpp
 CMakeFiles/xymodel.dir/src/xymodel.cpp.o: CMakeFiles/xymodel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xymodel.dir/src/xymodel.cpp.o"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/xymodel.cpp.o -MF CMakeFiles/xymodel.dir/src/xymodel.cpp.o.d -o CMakeFiles/xymodel.dir/src/xymodel.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/xymodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xymodel.dir/src/xymodel.cpp.o"
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/xymodel.cpp.o -MF CMakeFiles/xymodel.dir/src/xymodel.cpp.o.d -o CMakeFiles/xymodel.dir/src/xymodel.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/xymodel.cpp
 
 CMakeFiles/xymodel.dir/src/xymodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/xymodel.dir/src/xymodel.cpp.i"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/xymodel.cpp > CMakeFiles/xymodel.dir/src/xymodel.cpp.i
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/xymodel.cpp > CMakeFiles/xymodel.dir/src/xymodel.cpp.i
 
 CMakeFiles/xymodel.dir/src/xymodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xymodel.dir/src/xymodel.cpp.s"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/xymodel.cpp -o CMakeFiles/xymodel.dir/src/xymodel.cpp.s
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/xymodel.cpp -o CMakeFiles/xymodel.dir/src/xymodel.cpp.s
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o: CMakeFiles/xymodel.dir/flags.make
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o: CMakeFiles/xymodel.dir/includes_CXX.rsp
-CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin2d/Spin2dModel.cpp
+CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin2d/Spin2dModel.cpp
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o: CMakeFiles/xymodel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o -MF CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o.d -o CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin2d/Spin2dModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o"
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o -MF CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o.d -o CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin2d/Spin2dModel.cpp
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.i"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin2d/Spin2dModel.cpp > CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.i
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin2d/Spin2dModel.cpp > CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.i
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.s"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin2d/Spin2dModel.cpp -o CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.s
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin2d/Spin2dModel.cpp -o CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.s
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o: CMakeFiles/xymodel.dir/flags.make
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o: CMakeFiles/xymodel.dir/includes_CXX.rsp
-CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin2d/SquareXYModel.cpp
+CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin2d/SquareXYModel.cpp
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o: CMakeFiles/xymodel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o -MF CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o.d -o CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin2d/SquareXYModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o"
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o -MF CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o.d -o CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin2d/SquareXYModel.cpp
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.i"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin2d/SquareXYModel.cpp > CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.i
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin2d/SquareXYModel.cpp > CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.i
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.s"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin2d/SquareXYModel.cpp -o CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.s
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin2d/SquareXYModel.cpp -o CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.s
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: CMakeFiles/xymodel.dir/flags.make
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: CMakeFiles/xymodel.dir/includes_CXX.rsp
-CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin3d/Spin3dModel.cpp
+CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin3d/Spin3dModel.cpp
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: CMakeFiles/xymodel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o -MF CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o.d -o CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin3d/Spin3dModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o"
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o -MF CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o.d -o CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin3d/Spin3dModel.cpp
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.i"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin3d/Spin3dModel.cpp > CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.i
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin3d/Spin3dModel.cpp > CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.i
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.s"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin3d/Spin3dModel.cpp -o CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.s
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin3d/Spin3dModel.cpp -o CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.s
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o: CMakeFiles/xymodel.dir/flags.make
 CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o: CMakeFiles/xymodel.dir/includes_CXX.rsp
-CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Ising/IsingModel.cpp
+CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Ising/IsingModel.cpp
 CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o: CMakeFiles/xymodel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o -MF CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o.d -o CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Ising/IsingModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o"
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o -MF CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o.d -o CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Ising/IsingModel.cpp
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.i"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Ising/IsingModel.cpp > CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.i
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Ising/IsingModel.cpp > CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.i
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.s"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Ising/IsingModel.cpp -o CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.s
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Ising/IsingModel.cpp -o CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.s
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o: CMakeFiles/xymodel.dir/flags.make
 CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o: CMakeFiles/xymodel.dir/includes_CXX.rsp
-CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Ising/SquareIsingModel.cpp
+CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Ising/SquareIsingModel.cpp
 CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o: CMakeFiles/xymodel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o -MF CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o.d -o CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Ising/SquareIsingModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o"
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o -MF CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o.d -o CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Ising/SquareIsingModel.cpp
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.i"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Ising/SquareIsingModel.cpp > CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.i
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Ising/SquareIsingModel.cpp > CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.i
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.s"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Ising/SquareIsingModel.cpp -o CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.s
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Ising/SquareIsingModel.cpp -o CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.s
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o: CMakeFiles/xymodel.dir/flags.make
 CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o: CMakeFiles/xymodel.dir/includes_CXX.rsp
-CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/MonteCarlo.cpp
+CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/MonteCarlo.cpp
 CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o: CMakeFiles/xymodel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o -MF CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o.d -o CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/MonteCarlo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o"
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o -MF CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o.d -o CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/MonteCarlo.cpp
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.i"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/MonteCarlo.cpp > CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.i
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/MonteCarlo.cpp > CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.i
 
 CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.s"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/MonteCarlo.cpp -o CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.s
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/MonteCarlo.cpp -o CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.s
 
 # Object files for target xymodel
 xymodel_OBJECTS = \
@@ -187,21 +187,21 @@ xymodel_OBJECTS = \
 # External object files for target xymodel
 xymodel_EXTERNAL_OBJECTS =
 
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js: CMakeFiles/xymodel.dir/src/xymodel.cpp.o
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js: CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js: CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js: CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js: CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js: CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js: CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js: CMakeFiles/xymodel.dir/build.make
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js: CMakeFiles/xymodel.dir/objects1.rsp
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js: CMakeFiles/xymodel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js"
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js: CMakeFiles/xymodel.dir/src/xymodel.cpp.o
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js: CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/Spin2dModel.cpp.o
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js: CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js: CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js: CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/IsingModel.cpp.o
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js: CMakeFiles/xymodel.dir/src/MonteCarlo/Ising/SquareIsingModel.cpp.o
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js: CMakeFiles/xymodel.dir/src/MonteCarlo/MonteCarlo.cpp.o
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js: CMakeFiles/xymodel.dir/build.make
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js: CMakeFiles/xymodel.dir/objects1.rsp
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js: CMakeFiles/xymodel.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xymodel.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/xymodel.dir/build: /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js
+CMakeFiles/xymodel.dir/build: /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js
 .PHONY : CMakeFiles/xymodel.dir/build
 
 CMakeFiles/xymodel.dir/clean:
@@ -209,6 +209,6 @@ CMakeFiles/xymodel.dir/clean:
 .PHONY : CMakeFiles/xymodel.dir/clean
 
 CMakeFiles/xymodel.dir/depend:
-	cd /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles/xymodel.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eliotheinrich/Projects/eliotheinrich.github.io/src /Users/eliotheinrich/Projects/eliotheinrich.github.io/src /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles/xymodel.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/xymodel.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource
+# Install script for directory: /Users/eliotheinrich/Projects/eliotheinrich.github.io/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build")
+  set(CMAKE_INSTALL_PREFIX "/opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,7 +46,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js" TYPE EXECUTABLE FILES "/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.js")
+  file(INSTALL DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js" TYPE EXECUTABLE FILES "/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.js")
   if(EXISTS "$ENV{DESTDIR}/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/xymodel.js" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/xymodel.js")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -64,11 +64,29 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js" TYPE EXECUTABLE FILES "/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/dla.js")
+  file(INSTALL DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js" TYPE EXECUTABLE FILES "/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/dla.js")
   if(EXISTS "$ENV{DESTDIR}/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/dla.js" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/dla.js")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/opt/homebrew/anaconda3/bin/strip" "$ENV{DESTDIR}/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/dla.js")
+    endif()
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/qrpm.js")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js" TYPE EXECUTABLE FILES "/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/qrpm.js")
+  if(EXISTS "$ENV{DESTDIR}/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/qrpm.js" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/qrpm.js")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/opt/homebrew/anaconda3/bin/strip" "$ENV{DESTDIR}/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/qrpm.js")
     endif()
   endif()
 endif()
@@ -82,7 +100,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js" TYPE FILE FILES "/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/xymodel.wasm")
+  file(INSTALL DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js" TYPE FILE FILES "/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/xymodel.wasm")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -94,7 +112,19 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js" TYPE FILE FILES "/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/dla.wasm")
+  file(INSTALL DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js" TYPE FILE FILES "/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/dla.wasm")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/qrpm.wasm")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js" TYPE FILE FILES "/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/qrpm.wasm")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -105,5 +135,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

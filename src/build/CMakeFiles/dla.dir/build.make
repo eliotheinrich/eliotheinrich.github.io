@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource
+CMAKE_SOURCE_DIR = /Users/eliotheinrich/Projects/eliotheinrich.github.io/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build
+CMAKE_BINARY_DIR = /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dla.dir/depend.make
@@ -71,18 +71,18 @@ include CMakeFiles/dla.dir/flags.make
 
 CMakeFiles/dla.dir/src/dla.cpp.o: CMakeFiles/dla.dir/flags.make
 CMakeFiles/dla.dir/src/dla.cpp.o: CMakeFiles/dla.dir/includes_CXX.rsp
-CMakeFiles/dla.dir/src/dla.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/dla.cpp
+CMakeFiles/dla.dir/src/dla.cpp.o: /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/dla.cpp
 CMakeFiles/dla.dir/src/dla.cpp.o: CMakeFiles/dla.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dla.dir/src/dla.cpp.o"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dla.dir/src/dla.cpp.o -MF CMakeFiles/dla.dir/src/dla.cpp.o.d -o CMakeFiles/dla.dir/src/dla.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/dla.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dla.dir/src/dla.cpp.o"
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dla.dir/src/dla.cpp.o -MF CMakeFiles/dla.dir/src/dla.cpp.o.d -o CMakeFiles/dla.dir/src/dla.cpp.o -c /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/dla.cpp
 
 CMakeFiles/dla.dir/src/dla.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dla.dir/src/dla.cpp.i"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/dla.cpp > CMakeFiles/dla.dir/src/dla.cpp.i
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/dla.cpp > CMakeFiles/dla.dir/src/dla.cpp.i
 
 CMakeFiles/dla.dir/src/dla.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dla.dir/src/dla.cpp.s"
-	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/dla.cpp -o CMakeFiles/dla.dir/src/dla.cpp.s
+	/opt/homebrew/Cellar/emscripten/4.0.15/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/dla.cpp -o CMakeFiles/dla.dir/src/dla.cpp.s
 
 # Object files for target dla
 dla_OBJECTS = \
@@ -91,15 +91,15 @@ dla_OBJECTS = \
 # External object files for target dla
 dla_EXTERNAL_OBJECTS =
 
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/dla.js: CMakeFiles/dla.dir/src/dla.cpp.o
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/dla.js: CMakeFiles/dla.dir/build.make
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/dla.js: CMakeFiles/dla.dir/objects1.rsp
-/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/dla.js: CMakeFiles/dla.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/dla.js"
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/dla.js: CMakeFiles/dla.dir/src/dla.cpp.o
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/dla.js: CMakeFiles/dla.dir/build.make
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/dla.js: CMakeFiles/dla.dir/objects1.rsp
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/dla.js: CMakeFiles/dla.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/dla.js"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dla.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/dla.dir/build: /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/dla.js
+CMakeFiles/dla.dir/build: /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/dla.js
 .PHONY : CMakeFiles/dla.dir/build
 
 CMakeFiles/dla.dir/clean:
@@ -107,6 +107,6 @@ CMakeFiles/dla.dir/clean:
 .PHONY : CMakeFiles/dla.dir/clean
 
 CMakeFiles/dla.dir/depend:
-	cd /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles/dla.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eliotheinrich/Projects/eliotheinrich.github.io/src /Users/eliotheinrich/Projects/eliotheinrich.github.io/src /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles/dla.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dla.dir/depend
 

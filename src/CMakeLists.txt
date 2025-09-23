@@ -34,7 +34,22 @@ add_executable(dla
   src/dla.cpp
 )
 
-set(project_targets xymodel dla)
+add_executable(qrpm
+    src/qrpm.cpp
+    src/QRPM/SandpileCliffordSimulator.cpp
+    src/QRPM/CircuitUtils.cpp
+    src/QRPM/Instructions.cpp
+    src/QRPM/QuantumCHPState.cpp
+    src/QRPM/SandpileCliffordSimulator.cpp
+    src/QRPM/TableauSIMD.cpp
+    src/QRPM/CliffordState.cpp
+    src/QRPM/PauliString.cpp
+    src/QRPM/QuantumCircuit.cpp
+    src/QRPM/Tableau.cpp
+    src/QRPM/QuantumStates.cpp
+)
+
+set(project_targets xymodel dla qrpm)
 
 foreach (tgt IN ITEMS ${project_targets})
     set_target_properties(${tgt} PROPERTIES SUFFIX ".js")
@@ -61,6 +76,7 @@ endforeach()
 
 install(TARGETS xymodel RUNTIME DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js")
 install(TARGETS dla RUNTIME DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js")
+install(TARGETS qrpm RUNTIME DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js")
 foreach (tgt IN ITEMS ${project_targets})
     install(FILES ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${tgt}.wasm
             DESTINATION "/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js")

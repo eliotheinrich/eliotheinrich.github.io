@@ -13,7 +13,6 @@
 
 
 #include "Random.hpp"
-#include "DiffusionPhysicsModel.hpp"
 #include "QuadCollection.hpp"
 
 #define CLUSTER_POINT -1
@@ -29,8 +28,32 @@ std::vector<Color> DEFAULT_CLUSTER_COLORS = {
   {0.0, 0.0, 1.0, 1.0}
 };
 
-// Global future so that async mouse hover function does not hang when going out of scope
-std::future<void> hover_future;
+struct Point {
+  int x;
+  int y;
+
+  Point()=default;
+  Point(int x, int y) : x(x), y(y) {}
+
+  inline size_t to_index(size_t n, size_t m) const {
+    return x + n*y;
+  }
+
+  inline static size_t to_index(size_t x, size_t y, size_t n, size_t m) {
+    return x + n*y;
+  }
+
+  inline static size_t mod(int i, int n) {
+    return (i % n + n) % n;
+  }
+
+  inline static Point get_point_from_pos(double x, double y, size_t n, size_t m) {
+    x = (x + 1.0)/2.0;
+    y = (y + 1.0)/2.0;
+
+    return Point(int(x*n), int(y*m));
+  }
+};
 
 class DiffusionController : public Simulator {
   public:

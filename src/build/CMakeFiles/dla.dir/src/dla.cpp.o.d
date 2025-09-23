@@ -1,6 +1,6 @@
 CMakeFiles/dla.dir/src/dla.cpp.o: \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/dla.cpp \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/webgl.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/dla.cpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/webgl.hpp \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/memory \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__config \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__config_site \
@@ -563,7 +563,7 @@ CMakeFiles/dla.dir/src/dla.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__vector/vector_bool_formatter.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/map \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__new/launder.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/Simulator.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/Simulator.hpp \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/variant \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__fwd/variant.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__type_traits/add_cv_quals.h \
@@ -588,7 +588,7 @@ CMakeFiles/dla.dir/src/dla.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/GLES3/gl3.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/GLES3/gl3platform.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/KHR/khrplatform.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/DLA/DiffusionController.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/DLA/DiffusionController.hpp \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/bits/posix.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/future \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__condition_variable/condition_variable.h \
@@ -796,7 +796,7 @@ CMakeFiles/dla.dir/src/dla.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/ranges_starts_with.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/ranges_find_last.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/ranges_fold.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/Random.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/Random.hpp \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/random \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/bernoulli_distribution.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/uniform_real_distribution.h \
@@ -847,5 +847,4 @@ CMakeFiles/dla.dir/src/dla.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/seed_seq.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/student_t_distribution.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/weibull_distribution.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/DLA/DiffusionPhysicsModel.hpp \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/DLA/QuadCollection.hpp
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/DLA/QuadCollection.hpp

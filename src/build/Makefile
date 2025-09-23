@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource
+CMAKE_SOURCE_DIR = /Users/eliotheinrich/Projects/eliotheinrich.github.io/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build
+CMAKE_BINARY_DIR = /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -186,6 +186,19 @@ dla: cmake_check_build_system
 dla/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dla.dir/build.make CMakeFiles/dla.dir/build
 .PHONY : dla/fast
+
+#=============================================================================
+# Target rules for targets named qrpm
+
+# Build rule for target.
+qrpm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qrpm
+.PHONY : qrpm
+
+# fast build rule for target.
+qrpm/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/build
+.PHONY : qrpm/fast
 
 src/MonteCarlo/Ising/IsingModel.o: src/MonteCarlo/Ising/IsingModel.cpp.o
 .PHONY : src/MonteCarlo/Ising/IsingModel.o
@@ -331,6 +344,246 @@ src/MonteCarlo/Spin3d/Spin3dModel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xymodel.dir/build.make CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.s
 .PHONY : src/MonteCarlo/Spin3d/Spin3dModel.cpp.s
 
+src/QRPM/CircuitUtils.o: src/QRPM/CircuitUtils.cpp.o
+.PHONY : src/QRPM/CircuitUtils.o
+
+# target to build an object file
+src/QRPM/CircuitUtils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/CircuitUtils.cpp.o
+.PHONY : src/QRPM/CircuitUtils.cpp.o
+
+src/QRPM/CircuitUtils.i: src/QRPM/CircuitUtils.cpp.i
+.PHONY : src/QRPM/CircuitUtils.i
+
+# target to preprocess a source file
+src/QRPM/CircuitUtils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/CircuitUtils.cpp.i
+.PHONY : src/QRPM/CircuitUtils.cpp.i
+
+src/QRPM/CircuitUtils.s: src/QRPM/CircuitUtils.cpp.s
+.PHONY : src/QRPM/CircuitUtils.s
+
+# target to generate assembly for a file
+src/QRPM/CircuitUtils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/CircuitUtils.cpp.s
+.PHONY : src/QRPM/CircuitUtils.cpp.s
+
+src/QRPM/CliffordState.o: src/QRPM/CliffordState.cpp.o
+.PHONY : src/QRPM/CliffordState.o
+
+# target to build an object file
+src/QRPM/CliffordState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/CliffordState.cpp.o
+.PHONY : src/QRPM/CliffordState.cpp.o
+
+src/QRPM/CliffordState.i: src/QRPM/CliffordState.cpp.i
+.PHONY : src/QRPM/CliffordState.i
+
+# target to preprocess a source file
+src/QRPM/CliffordState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/CliffordState.cpp.i
+.PHONY : src/QRPM/CliffordState.cpp.i
+
+src/QRPM/CliffordState.s: src/QRPM/CliffordState.cpp.s
+.PHONY : src/QRPM/CliffordState.s
+
+# target to generate assembly for a file
+src/QRPM/CliffordState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/CliffordState.cpp.s
+.PHONY : src/QRPM/CliffordState.cpp.s
+
+src/QRPM/Instructions.o: src/QRPM/Instructions.cpp.o
+.PHONY : src/QRPM/Instructions.o
+
+# target to build an object file
+src/QRPM/Instructions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/Instructions.cpp.o
+.PHONY : src/QRPM/Instructions.cpp.o
+
+src/QRPM/Instructions.i: src/QRPM/Instructions.cpp.i
+.PHONY : src/QRPM/Instructions.i
+
+# target to preprocess a source file
+src/QRPM/Instructions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/Instructions.cpp.i
+.PHONY : src/QRPM/Instructions.cpp.i
+
+src/QRPM/Instructions.s: src/QRPM/Instructions.cpp.s
+.PHONY : src/QRPM/Instructions.s
+
+# target to generate assembly for a file
+src/QRPM/Instructions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/Instructions.cpp.s
+.PHONY : src/QRPM/Instructions.cpp.s
+
+src/QRPM/PauliString.o: src/QRPM/PauliString.cpp.o
+.PHONY : src/QRPM/PauliString.o
+
+# target to build an object file
+src/QRPM/PauliString.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/PauliString.cpp.o
+.PHONY : src/QRPM/PauliString.cpp.o
+
+src/QRPM/PauliString.i: src/QRPM/PauliString.cpp.i
+.PHONY : src/QRPM/PauliString.i
+
+# target to preprocess a source file
+src/QRPM/PauliString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/PauliString.cpp.i
+.PHONY : src/QRPM/PauliString.cpp.i
+
+src/QRPM/PauliString.s: src/QRPM/PauliString.cpp.s
+.PHONY : src/QRPM/PauliString.s
+
+# target to generate assembly for a file
+src/QRPM/PauliString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/PauliString.cpp.s
+.PHONY : src/QRPM/PauliString.cpp.s
+
+src/QRPM/QuantumCHPState.o: src/QRPM/QuantumCHPState.cpp.o
+.PHONY : src/QRPM/QuantumCHPState.o
+
+# target to build an object file
+src/QRPM/QuantumCHPState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/QuantumCHPState.cpp.o
+.PHONY : src/QRPM/QuantumCHPState.cpp.o
+
+src/QRPM/QuantumCHPState.i: src/QRPM/QuantumCHPState.cpp.i
+.PHONY : src/QRPM/QuantumCHPState.i
+
+# target to preprocess a source file
+src/QRPM/QuantumCHPState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/QuantumCHPState.cpp.i
+.PHONY : src/QRPM/QuantumCHPState.cpp.i
+
+src/QRPM/QuantumCHPState.s: src/QRPM/QuantumCHPState.cpp.s
+.PHONY : src/QRPM/QuantumCHPState.s
+
+# target to generate assembly for a file
+src/QRPM/QuantumCHPState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/QuantumCHPState.cpp.s
+.PHONY : src/QRPM/QuantumCHPState.cpp.s
+
+src/QRPM/QuantumCircuit.o: src/QRPM/QuantumCircuit.cpp.o
+.PHONY : src/QRPM/QuantumCircuit.o
+
+# target to build an object file
+src/QRPM/QuantumCircuit.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/QuantumCircuit.cpp.o
+.PHONY : src/QRPM/QuantumCircuit.cpp.o
+
+src/QRPM/QuantumCircuit.i: src/QRPM/QuantumCircuit.cpp.i
+.PHONY : src/QRPM/QuantumCircuit.i
+
+# target to preprocess a source file
+src/QRPM/QuantumCircuit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/QuantumCircuit.cpp.i
+.PHONY : src/QRPM/QuantumCircuit.cpp.i
+
+src/QRPM/QuantumCircuit.s: src/QRPM/QuantumCircuit.cpp.s
+.PHONY : src/QRPM/QuantumCircuit.s
+
+# target to generate assembly for a file
+src/QRPM/QuantumCircuit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/QuantumCircuit.cpp.s
+.PHONY : src/QRPM/QuantumCircuit.cpp.s
+
+src/QRPM/QuantumStates.o: src/QRPM/QuantumStates.cpp.o
+.PHONY : src/QRPM/QuantumStates.o
+
+# target to build an object file
+src/QRPM/QuantumStates.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/QuantumStates.cpp.o
+.PHONY : src/QRPM/QuantumStates.cpp.o
+
+src/QRPM/QuantumStates.i: src/QRPM/QuantumStates.cpp.i
+.PHONY : src/QRPM/QuantumStates.i
+
+# target to preprocess a source file
+src/QRPM/QuantumStates.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/QuantumStates.cpp.i
+.PHONY : src/QRPM/QuantumStates.cpp.i
+
+src/QRPM/QuantumStates.s: src/QRPM/QuantumStates.cpp.s
+.PHONY : src/QRPM/QuantumStates.s
+
+# target to generate assembly for a file
+src/QRPM/QuantumStates.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/QuantumStates.cpp.s
+.PHONY : src/QRPM/QuantumStates.cpp.s
+
+src/QRPM/SandpileCliffordSimulator.o: src/QRPM/SandpileCliffordSimulator.cpp.o
+.PHONY : src/QRPM/SandpileCliffordSimulator.o
+
+# target to build an object file
+src/QRPM/SandpileCliffordSimulator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/SandpileCliffordSimulator.cpp.o
+.PHONY : src/QRPM/SandpileCliffordSimulator.cpp.o
+
+src/QRPM/SandpileCliffordSimulator.i: src/QRPM/SandpileCliffordSimulator.cpp.i
+.PHONY : src/QRPM/SandpileCliffordSimulator.i
+
+# target to preprocess a source file
+src/QRPM/SandpileCliffordSimulator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/SandpileCliffordSimulator.cpp.i
+.PHONY : src/QRPM/SandpileCliffordSimulator.cpp.i
+
+src/QRPM/SandpileCliffordSimulator.s: src/QRPM/SandpileCliffordSimulator.cpp.s
+.PHONY : src/QRPM/SandpileCliffordSimulator.s
+
+# target to generate assembly for a file
+src/QRPM/SandpileCliffordSimulator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/SandpileCliffordSimulator.cpp.s
+.PHONY : src/QRPM/SandpileCliffordSimulator.cpp.s
+
+src/QRPM/Tableau.o: src/QRPM/Tableau.cpp.o
+.PHONY : src/QRPM/Tableau.o
+
+# target to build an object file
+src/QRPM/Tableau.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/Tableau.cpp.o
+.PHONY : src/QRPM/Tableau.cpp.o
+
+src/QRPM/Tableau.i: src/QRPM/Tableau.cpp.i
+.PHONY : src/QRPM/Tableau.i
+
+# target to preprocess a source file
+src/QRPM/Tableau.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/Tableau.cpp.i
+.PHONY : src/QRPM/Tableau.cpp.i
+
+src/QRPM/Tableau.s: src/QRPM/Tableau.cpp.s
+.PHONY : src/QRPM/Tableau.s
+
+# target to generate assembly for a file
+src/QRPM/Tableau.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/Tableau.cpp.s
+.PHONY : src/QRPM/Tableau.cpp.s
+
+src/QRPM/TableauSIMD.o: src/QRPM/TableauSIMD.cpp.o
+.PHONY : src/QRPM/TableauSIMD.o
+
+# target to build an object file
+src/QRPM/TableauSIMD.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/TableauSIMD.cpp.o
+.PHONY : src/QRPM/TableauSIMD.cpp.o
+
+src/QRPM/TableauSIMD.i: src/QRPM/TableauSIMD.cpp.i
+.PHONY : src/QRPM/TableauSIMD.i
+
+# target to preprocess a source file
+src/QRPM/TableauSIMD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/TableauSIMD.cpp.i
+.PHONY : src/QRPM/TableauSIMD.cpp.i
+
+src/QRPM/TableauSIMD.s: src/QRPM/TableauSIMD.cpp.s
+.PHONY : src/QRPM/TableauSIMD.s
+
+# target to generate assembly for a file
+src/QRPM/TableauSIMD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/QRPM/TableauSIMD.cpp.s
+.PHONY : src/QRPM/TableauSIMD.cpp.s
+
 src/dla.o: src/dla.cpp.o
 .PHONY : src/dla.o
 
@@ -354,6 +607,30 @@ src/dla.s: src/dla.cpp.s
 src/dla.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dla.dir/build.make CMakeFiles/dla.dir/src/dla.cpp.s
 .PHONY : src/dla.cpp.s
+
+src/qrpm.o: src/qrpm.cpp.o
+.PHONY : src/qrpm.o
+
+# target to build an object file
+src/qrpm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/qrpm.cpp.o
+.PHONY : src/qrpm.cpp.o
+
+src/qrpm.i: src/qrpm.cpp.i
+.PHONY : src/qrpm.i
+
+# target to preprocess a source file
+src/qrpm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/qrpm.cpp.i
+.PHONY : src/qrpm.cpp.i
+
+src/qrpm.s: src/qrpm.cpp.s
+.PHONY : src/qrpm.s
+
+# target to generate assembly for a file
+src/qrpm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qrpm.dir/build.make CMakeFiles/qrpm.dir/src/qrpm.cpp.s
+.PHONY : src/qrpm.cpp.s
 
 src/xymodel.o: src/xymodel.cpp.o
 .PHONY : src/xymodel.o
@@ -392,6 +669,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... dla"
+	@echo "... qrpm"
 	@echo "... xymodel"
 	@echo "... src/MonteCarlo/Ising/IsingModel.o"
 	@echo "... src/MonteCarlo/Ising/IsingModel.i"
@@ -411,9 +689,42 @@ help:
 	@echo "... src/MonteCarlo/Spin3d/Spin3dModel.o"
 	@echo "... src/MonteCarlo/Spin3d/Spin3dModel.i"
 	@echo "... src/MonteCarlo/Spin3d/Spin3dModel.s"
+	@echo "... src/QRPM/CircuitUtils.o"
+	@echo "... src/QRPM/CircuitUtils.i"
+	@echo "... src/QRPM/CircuitUtils.s"
+	@echo "... src/QRPM/CliffordState.o"
+	@echo "... src/QRPM/CliffordState.i"
+	@echo "... src/QRPM/CliffordState.s"
+	@echo "... src/QRPM/Instructions.o"
+	@echo "... src/QRPM/Instructions.i"
+	@echo "... src/QRPM/Instructions.s"
+	@echo "... src/QRPM/PauliString.o"
+	@echo "... src/QRPM/PauliString.i"
+	@echo "... src/QRPM/PauliString.s"
+	@echo "... src/QRPM/QuantumCHPState.o"
+	@echo "... src/QRPM/QuantumCHPState.i"
+	@echo "... src/QRPM/QuantumCHPState.s"
+	@echo "... src/QRPM/QuantumCircuit.o"
+	@echo "... src/QRPM/QuantumCircuit.i"
+	@echo "... src/QRPM/QuantumCircuit.s"
+	@echo "... src/QRPM/QuantumStates.o"
+	@echo "... src/QRPM/QuantumStates.i"
+	@echo "... src/QRPM/QuantumStates.s"
+	@echo "... src/QRPM/SandpileCliffordSimulator.o"
+	@echo "... src/QRPM/SandpileCliffordSimulator.i"
+	@echo "... src/QRPM/SandpileCliffordSimulator.s"
+	@echo "... src/QRPM/Tableau.o"
+	@echo "... src/QRPM/Tableau.i"
+	@echo "... src/QRPM/Tableau.s"
+	@echo "... src/QRPM/TableauSIMD.o"
+	@echo "... src/QRPM/TableauSIMD.i"
+	@echo "... src/QRPM/TableauSIMD.s"
 	@echo "... src/dla.o"
 	@echo "... src/dla.i"
 	@echo "... src/dla.s"
+	@echo "... src/qrpm.o"
+	@echo "... src/qrpm.i"
+	@echo "... src/qrpm.s"
 	@echo "... src/xymodel.o"
 	@echo "... src/xymodel.i"
 	@echo "... src/xymodel.s"

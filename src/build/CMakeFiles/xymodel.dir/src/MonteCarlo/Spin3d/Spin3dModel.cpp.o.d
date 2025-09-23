@@ -1,7 +1,7 @@
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin3d/Spin3dModel.cpp \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin3d/Spin3DModel.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/MonteCarlo.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin3d/Spin3dModel.cpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin3d/Spin3DModel.h \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/MonteCarlo.hpp \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/cmath \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__config \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__config_site \
@@ -534,7 +534,7 @@ CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/print \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__system_error/throw_system_error.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/unistd.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/Random.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/Random.hpp \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/random \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/bernoulli_distribution.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/is_valid.h \
@@ -600,7 +600,7 @@ CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/uniform_int_distribution.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/uniform_random_bit_generator.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/weibull_distribution.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/Simulator.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/Simulator.hpp \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/variant \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__fwd/variant.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__type_traits/add_cv_quals.h \
@@ -630,48 +630,7 @@ CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/GLES3/gl3.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/GLES3/gl3platform.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/KHR/khrplatform.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Lattice.hpp \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/functional \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/binary_negate.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/bind.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/weak_result_type.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/binder1st.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/binder2nd.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/mem_fn.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/mem_fun_ref.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/pointer_to_binary_function.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/pointer_to_unary_function.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/reference_wrapper.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/unary_negate.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/function.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__memory/allocator_destructor.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__type_traits/strip_signature.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/boyer_moore_searcher.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__memory/shared_ptr.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__memory/allocation_guard.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/unordered_map \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/is_permutation.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__hash_table \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/default_searcher.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/search.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/not_fn.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/perfect_forward.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/bind_back.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/bind_front.h \
-  /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/Dense \
-  /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/Core \
-  /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
-  /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Core/util/Macros.h \
-  /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/new \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__new/new_handler.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__new/interference_size.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__new/destroying_delete_t.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/complex \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/sstream \
-  /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Core/util/MKL_support.h \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/cassert \
-  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/assert.h \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/Support.hpp \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/algorithm \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/adjacent_find.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/all_of.h \
@@ -693,6 +652,7 @@ CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/is_heap.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/is_heap_until.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/is_partitioned.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/is_permutation.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/is_sorted.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/is_sorted_until.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/make_heap.h \
@@ -725,6 +685,7 @@ CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/replace_if.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/reverse_copy.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/rotate_copy.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/search.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/search_n.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/set_difference.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/set_intersection.h \
@@ -752,6 +713,8 @@ CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/ranges_contains.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/ranges_find.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/ranges_find_if.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/reference_wrapper.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/weak_result_type.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__iterator/indirectly_comparable.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/ranges_copy_backward.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/ranges_copy_if.h \
@@ -836,6 +799,44 @@ CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/ranges_starts_with.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/ranges_find_last.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__algorithm/ranges_fold.h \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Lattice.hpp \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/functional \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/binary_negate.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/bind.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/binder1st.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/binder2nd.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/mem_fn.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/mem_fun_ref.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/pointer_to_binary_function.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/pointer_to_unary_function.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/unary_negate.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/function.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__memory/allocator_destructor.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__type_traits/strip_signature.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/boyer_moore_searcher.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__memory/shared_ptr.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__memory/allocation_guard.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/unordered_map \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__hash_table \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/default_searcher.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/not_fn.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/perfect_forward.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/bind_back.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__functional/bind_front.h \
+  /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/Dense \
+  /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/Core \
+  /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/new \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__new/new_handler.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__new/interference_size.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__new/destroying_delete_t.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/complex \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/sstream \
+  /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/cassert \
+  /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/assert.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/type_traits \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__type_traits/aligned_union.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__type_traits/alignment_of.h \
@@ -1039,7 +1040,7 @@ CMakeFiles/xymodel.dir/src/MonteCarlo/Spin3d/Spin3dModel.cpp.o: \
   /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
   /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h \
   /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Graph.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Graph.hpp \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/iterator \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__iterator/front_insert_iterator.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__iterator/insert_iterator.h \

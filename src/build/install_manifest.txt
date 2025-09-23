@@ -1,4 +1,6 @@
 /Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/xymodel.js
 /Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/dla.js
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/qrpm.js
 /Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/xymodel.wasm
 /Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/dla.wasm
+/Users/eliotheinrich/Projects/eliotheinrich.github.io/assets/js/qrpm.wasm

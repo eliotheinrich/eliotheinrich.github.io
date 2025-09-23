@@ -1,6 +1,6 @@
 CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o: \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin2d/SquareXYModel.cpp \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin2d/SquareXYModel.h \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin2d/SquareXYModel.cpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin2d/SquareXYModel.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/vector \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__config \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__config_site \
@@ -932,8 +932,8 @@ CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o: \
   /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
   /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h \
   /opt/homebrew/anaconda3/envs/plots/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Spin2d/Spin2DModel.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/MonteCarlo.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Spin2d/Spin2DModel.h \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/MonteCarlo.hpp \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/map \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__tree \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/iostream \
@@ -966,7 +966,7 @@ CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/print \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__system_error/throw_system_error.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/unistd.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/Random.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/Random.hpp \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/random \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/bernoulli_distribution.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/uniform_real_distribution.h \
@@ -1017,7 +1017,7 @@ CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/seed_seq.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/student_t_distribution.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__random/weibull_distribution.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/Simulator.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/Simulator.hpp \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/variant \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__fwd/variant.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__utility/forward_like.h \
@@ -1039,8 +1039,9 @@ CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/GLES3/gl3.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/GLES3/gl3platform.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/KHR/khrplatform.h \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Lattice.hpp \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/MonteCarlo/Graph.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/Support.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Lattice.hpp \
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/MonteCarlo/Graph.hpp \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/iterator \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__iterator/front_insert_iterator.h \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/__iterator/insert_iterator.h \
@@ -1091,4 +1092,4 @@ CMakeFiles/xymodel.dir/src/MonteCarlo/Spin2d/SquareXYModel.cpp.o: \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/unordered_set \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/stack \
   /opt/homebrew/Cellar/emscripten/4.0.15/libexec/cache/sysroot/include/c++/v1/deque \
-  /Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/src/QuadCollection.hpp
+  /Users/eliotheinrich/Projects/eliotheinrich.github.io/src/src/QuadCollection.hpp

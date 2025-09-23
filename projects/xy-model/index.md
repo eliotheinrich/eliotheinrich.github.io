@@ -282,7 +282,7 @@ function updateField(x, y) {
   dirSpan.textContent = angle + "°";
 
   // Send normalized values to WASM backend
-  Module.ccall("radial_callback", "void", ["number","number"], [dx / radius, dy / radius]);
+  Module.ccall("radial_callback", "void", ["number","number"], [magnitude, angle]);
 
   drawController();
 }
@@ -314,10 +314,10 @@ updates to Wolff-cluster updates (augmented with a ['ghost spin'](https://arxiv.
 
 The so-called XY model is described by the Hamiltonian
 
-$$H_{XY} = -J\sum\limits_{\langle i, j\rangle} \mathbf{S}_i \cdot \mathbf{S}_j$$
+$$H_{XY} = -J\sum\limits_{\langle i, j\rangle} \mathbf{S}_i \cdot \mathbf{S}_j - \mathbf{B} \cdot \sum\limits_{i} \mathbf{S}$$
 
 where $\mathbf{S}_i = (\cos(\theta_i), \sin(\theta_i))$ is a $2d$ classical spin vector, and $\langle i, j \rangle$ runs over nearest
-neighbor spins in a $2d$ square lattice. This model has a continuous $O(2)$ rotational symmetry, which prevents a low-temperature
+neighbor spins in a $2d$ square lattice. When $\mathbf{B} = 0$, this model has a continuous $O(2)$ rotational symmetry, which prevents a low-temperature
 magnetically ordered phase from existing according to the Mermin-Wagner theorem. 
 
 Remarkably, this model nonetheless exhibits a phase transition from a high-temperature disordered phase to a low-temperature quasi-ordered phase. 

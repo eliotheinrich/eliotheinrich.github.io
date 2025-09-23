@@ -23,9 +23,9 @@ Welcome to my projects! Click on a project below to explore.
     <p>qutils</p>
   </a>
 
-  <a href="{{ '/projects/mipt/' | relative_url }}">
-    <img src="{{ '/assets/images/mipt.png' | relative_url }}" alt="Measurement Induced Phenomena">
-    <p>Measurement Induced Phenomena</p>
+  <a href="{{ '/projects/qrpm/' | relative_url }}">
+    <img src="{{ '/assets/images/qrpm.png' | relative_url }}" alt="Quantum Raise and Peel">
+    <p>Quantum Raise and Peel</p>
   </a>
 </div>
 

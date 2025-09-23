@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/dla.js"
-  "/Users/eliotheinrich/Projects/eliotheinrich.github.io/ProjectSource/main/dla.pdb"
+  "/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/dla.js"
+  "/Users/eliotheinrich/Projects/eliotheinrich.github.io/src/main/dla.pdb"
   "CMakeFiles/dla.dir/src/dla.cpp.o"
   "CMakeFiles/dla.dir/src/dla.cpp.o.d"
 )

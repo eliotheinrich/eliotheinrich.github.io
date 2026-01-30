@@ -30,6 +30,11 @@ class SquareXYModel : public Spin2DModel {
     void set_field(double B, double Bp);
 
   private:
+    mutable uint32_t draw_counter = 0;
+    uint32_t mutation_counter = 0;
+    mutable Texture cached_texture;
+    mutable bool texture_initialized = false;
+
     uint32_t N;
     uint32_t L;
     int mut_mode;

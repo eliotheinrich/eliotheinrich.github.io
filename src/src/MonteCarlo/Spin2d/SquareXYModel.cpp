@@ -3,6 +3,8 @@
 #include <complex>
 #include <functional>
 
+#define INTERVAL 20
+
 SquareXYModel::SquareXYModel(Params &params, uint32_t num_threads) : Spin2DModel(params, num_threads) {
     N = get<int>(params, "system_size");
     L = get<int>(params, "layers", DEFAULT_LAYERS);
@@ -181,6 +183,13 @@ void SquareXYModel::over_relaxation_mutation() {
 }
 
 void SquareXYModel::generate_mutation() {
+  mutation_counter++;
+
+  if (cluster_update && mutation_counter % INTERVAL != 1) {
+    // Skip mutation on this call
+    return;
+  }
+
   if (cluster_update) {
     cluster_mutation(); 
   } else {
@@ -202,47 +211,55 @@ void SquareXYModel::generate_mutation() {
 }
 
 void SquareXYModel::draw() const {
-  Texture texture(N, N);
+    draw_counter++;
 
-  for (size_t i = 0; i < V; i++) {
-    auto idxs = lattice.tensor_idx(i);
-    size_t x = idxs[0];
-    size_t y = idxs[1];
-    double phi = std::atan2(get_spin(i)[1], get_spin(i)[0]);
-    float c = (std::sin(phi) + 1.0)/2.0;
-    texture.set(x, y, {c, c, c, 1.0});
-  }
+    if (!cluster_update || draw_counter % INTERVAL == 1) {
+        if (!texture_initialized) {
+            cached_texture = Texture(N, N);
+            texture_initialized = true;
+        }
 
-  auto vortices = get_vortices();
-
-  QuadCollection quads;
-
-  for (const auto& [i, v] : vortices) {
-    auto idxs = lattice.tensor_idx(i);
-    double x = 2*(idxs[0]/double(N) - 0.5);
-    double y = 2*(idxs[1]/double(N) - 0.5);
-
-    double w = 0.02;
-    double h = 0.005;
-    double bottom = y - h;
-    double top = y + h;
-    double left = x - w;
-    double right = x + w;
-
-    if (v) {
-      auto [v1, i1] = make_quad(x - w, y - h, 2*w, 2*h, 0);
-      quads.add_vertices(v1, i1, {1.0, 0.0, 0.0, 1.0});
-
-      auto [v2, i2] = make_quad(x - h, y - w, 2*h, 2*w, 0);
-      quads.add_vertices(v2, i2, {1.0, 0.0, 0.0, 1.0});
-    } else {
-      auto [vertices, indices] = make_quad(left, bottom, 2*w, 2*h, 0);
-      quads.add_vertices(vertices, indices, {0.0, 0.0, 1.0, 1.0});
+        for (size_t i = 0; i < V; i++) {
+            auto idxs = lattice.tensor_idx(i);
+            size_t x = idxs[0];
+            size_t y = idxs[1];
+            double phi = std::atan2(get_spin(i)[1], get_spin(i)[0]);
+            float c = (std::sin(phi) + 1.0)/2.0;
+            cached_texture.set(x, y, {c, c, c, 1.0});
+        }
     }
-  }
 
-  texture.draw();
-  quads.draw();
+    cached_texture.draw();
+
+    // Vortex drawing (unchanged)
+    auto vortices = get_vortices();
+    QuadCollection quads;
+
+    for (const auto& [i, v] : vortices) {
+        auto idxs = lattice.tensor_idx(i);
+        double x = 2*(idxs[0]/double(N) - 0.5);
+        double y = 2*(idxs[1]/double(N) - 0.5);
+
+        double w = 0.02;
+        double h = 0.005;
+        double bottom = y - h;
+        double top = y + h;
+        double left = x - w;
+        double right = x + w;
+
+        if (v) {
+            auto [v1, i1] = make_quad(x - w, y - h, 2*w, 2*h, 0);
+            quads.add_vertices(v1, i1, {1.0, 0.0, 0.0, 1.0});
+
+            auto [v2, i2] = make_quad(x - h, y - w, 2*h, 2*w, 0);
+            quads.add_vertices(v2, i2, {1.0, 0.0, 0.0, 1.0});
+        } else {
+            auto [vertices, indices] = make_quad(left, bottom, 2*w, 2*h, 0);
+            quads.add_vertices(vertices, indices, {0.0, 0.0, 1.0, 1.0});
+        }
+    }
+
+    quads.draw();
 }
 
 void SquareXYModel::key_callback(const std::string& key) {

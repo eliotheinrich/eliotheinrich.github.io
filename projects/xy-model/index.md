@@ -10,12 +10,6 @@ which performs Markov-chain Monte Carlo simulations of it. Below is a descriptio
 a related research project of mine.
 
 # Interactive Applet
-
-*EPILEPSY WARNING:*
-<small>
-Wolff cluster updates at low temperatures cause the entire spin system to rapidly oscillate, which causes a strobelight effect.
-Metropolis-Hastings updates (the default) do not have this problem.
-</small>
 <div class="canvas-container">
   <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas>
 </div>

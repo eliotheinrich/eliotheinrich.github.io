@@ -117,7 +117,7 @@ author:
   avatar           : "/assets/images/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am currently finishing my PhD in theoretical physics at Boston College, with a focus on quantum simulation and state characterization in dynamic phase transitions."
   location         : "Boston, MA"
-  email            : "heinriea@bc.edu"
+  email            : "eliot.heinrich@gmail.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
